@@ -27,35 +27,20 @@ int smallest_number_friends(const std::vector<std::pair<int, int>>& input){
 }
 
 int main() {
-    int amount;
-    std::cin >> amount;
+    int amount_users;
+    std::cin >> amount_users;
 
-    int input1 [amount*2];
+    int amount_friends;
+    std::cin >> amount_friends;
 
-    for (int i = 0; i < amount*2; ++i) {
-        std::cin >> input1[i];
+    int current_input = 0;
+    std::vector<int> collection = std::vector<int>();
+    for (int i = 0; i < amount_friends * 2; ++i) {
+        std::cin >> current_input;
+        collection.emplace_back(current_input);
     }
-
 
     std::vector<std::pair<int, int>> input = std::vector<std::pair<int, int>>();
-    input.emplace_back(0, 2);
-    input.emplace_back(5, 1);
-    input.emplace_back(4, 2);
-    input.emplace_back(4, 3);
-    input.emplace_back(5, 2);
-    input.emplace_back(5, 7);
-    input.emplace_back(0, 1);
-    input.emplace_back(0, 4);
-    input.emplace_back(6, 7);
-    input.emplace_back(5, 3);
-
-    std::vector<int> collection = std::vector<int>();
-    for (auto & i : input) {
-        collection.emplace_back(i.first);
-        collection.emplace_back(i.second);
-    }
-
-    input.clear();
 
     for (auto item : collection) {
         if(!existing(input, item)) {
@@ -69,9 +54,20 @@ int main() {
     }
 
     int smallest = smallest_number_friends(input);
+
+    std::vector<int> output = std::vector<int>();
     for (auto item : input) {
-        if (item.second == smallest) std::cout << item.first << " ";
+        //smallest number of friends
+        if (item.second == smallest) output.emplace_back(item.first);
     }
+
+    //sort the output
+    std::sort(output.begin(), output.end());
+
+    for (auto item : output) {
+        std::cout << item << " ";
+    }
+
     std::cout << std::endl;
 
     return 0;

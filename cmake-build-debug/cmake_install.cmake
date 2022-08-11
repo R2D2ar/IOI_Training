@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/r2r/CLionProjects/IOI Training
+# Install script for directory: C:/Users/R2D2/CLionProjects/IOI_Training
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/r2r/CLionProjects/IOI Training/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
