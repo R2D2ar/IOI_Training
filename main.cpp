@@ -21,7 +21,7 @@ int main() {
     int output[amount_users];
     for(int i = 0; i < amount_friends * 2; ++i){
         counter++;
-        if ((i+1 < amount_friends * 2 && input[i] != input[i+1]) || i == amount_friends * 2 - 1){
+        if (input[i] != input[i+1] || i == amount_friends * 2 - 1){
             output[position] = counter;
             counter = 0;
             position++;
