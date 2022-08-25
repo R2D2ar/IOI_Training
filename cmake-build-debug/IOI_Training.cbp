@@ -126,10 +126,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/main.cpp">
+		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/nachbarn.cpp">
 			<Option target="IOI_Training"/>
 		</Unit>
-		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/ying_yang.cpp">
+		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/yin_yang.cpp">
 			<Option target="YingYang"/>
 		</Unit>
 		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/CMakeLists.txt">

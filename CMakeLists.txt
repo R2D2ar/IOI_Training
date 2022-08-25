@@ -3,5 +3,5 @@ project(IOI_Training)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(IOI_Training main.cpp)
-add_executable(YingYang ying_yang.cpp)
+add_executable(IOI_Training nachbarn.cpp)
+add_executable(YingYang yin_yang.cpp)

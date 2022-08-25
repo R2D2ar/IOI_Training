@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/R2D2/CLionProjects/IOI_Training/ying_yang.cpp" "CMakeFiles/YingYang.dir/ying_yang.cpp.obj" "gcc" "CMakeFiles/YingYang.dir/ying_yang.cpp.obj.d"
+  "C:/Users/R2D2/CLionProjects/IOI_Training/yin_yang.cpp" "CMakeFiles/YingYang.dir/yin_yang.cpp.obj" "gcc" "CMakeFiles/YingYang.dir/yin_yang.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -68,28 +68,28 @@ include CMakeFiles/YingYang.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/YingYang.dir/flags.make
 
-CMakeFiles/YingYang.dir/ying_yang.cpp.obj: CMakeFiles/YingYang.dir/flags.make
-CMakeFiles/YingYang.dir/ying_yang.cpp.obj: ../ying_yang.cpp
-CMakeFiles/YingYang.dir/ying_yang.cpp.obj: CMakeFiles/YingYang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YingYang.dir/ying_yang.cpp.obj"
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YingYang.dir/ying_yang.cpp.obj -MF CMakeFiles\YingYang.dir\ying_yang.cpp.obj.d -o CMakeFiles\YingYang.dir\ying_yang.cpp.obj -c C:\Users\R2D2\CLionProjects\IOI_Training\ying_yang.cpp
+CMakeFiles/YingYang.dir/yin_yang.cpp.obj: CMakeFiles/YingYang.dir/flags.make
+CMakeFiles/YingYang.dir/yin_yang.cpp.obj: ../yin_yang.cpp
+CMakeFiles/YingYang.dir/yin_yang.cpp.obj: CMakeFiles/YingYang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YingYang.dir/yin_yang.cpp.obj"
+	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YingYang.dir/yin_yang.cpp.obj -MF CMakeFiles\YingYang.dir\yin_yang.cpp.obj.d -o CMakeFiles\YingYang.dir\yin_yang.cpp.obj -c C:\Users\R2D2\CLionProjects\IOI_Training\yin_yang.cpp
 
-CMakeFiles/YingYang.dir/ying_yang.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YingYang.dir/ying_yang.cpp.i"
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\R2D2\CLionProjects\IOI_Training\ying_yang.cpp > CMakeFiles\YingYang.dir\ying_yang.cpp.i
+CMakeFiles/YingYang.dir/yin_yang.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YingYang.dir/yin_yang.cpp.i"
+	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\R2D2\CLionProjects\IOI_Training\yin_yang.cpp > CMakeFiles\YingYang.dir\yin_yang.cpp.i
 
-CMakeFiles/YingYang.dir/ying_yang.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YingYang.dir/ying_yang.cpp.s"
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\R2D2\CLionProjects\IOI_Training\ying_yang.cpp -o CMakeFiles\YingYang.dir\ying_yang.cpp.s
+CMakeFiles/YingYang.dir/yin_yang.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YingYang.dir/yin_yang.cpp.s"
+	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\R2D2\CLionProjects\IOI_Training\yin_yang.cpp -o CMakeFiles\YingYang.dir\yin_yang.cpp.s
 
 # Object files for target YingYang
 YingYang_OBJECTS = \
-"CMakeFiles/YingYang.dir/ying_yang.cpp.obj"
+"CMakeFiles/YingYang.dir/yin_yang.cpp.obj"
 
 # External object files for target YingYang
 YingYang_EXTERNAL_OBJECTS =
 
-YingYang.exe: CMakeFiles/YingYang.dir/ying_yang.cpp.obj
+YingYang.exe: CMakeFiles/YingYang.dir/yin_yang.cpp.obj
 YingYang.exe: CMakeFiles/YingYang.dir/build.make
 YingYang.exe: CMakeFiles/YingYang.dir/linklibs.rsp
 YingYang.exe: CMakeFiles/YingYang.dir/objects1.rsp

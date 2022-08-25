@@ -68,28 +68,28 @@ include CMakeFiles/IOI_Training.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/IOI_Training.dir/flags.make
 
-CMakeFiles/IOI_Training.dir/main.cpp.obj: CMakeFiles/IOI_Training.dir/flags.make
-CMakeFiles/IOI_Training.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/IOI_Training.dir/main.cpp.obj: CMakeFiles/IOI_Training.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IOI_Training.dir/main.cpp.obj"
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IOI_Training.dir/main.cpp.obj -MF CMakeFiles\IOI_Training.dir\main.cpp.obj.d -o CMakeFiles\IOI_Training.dir\main.cpp.obj -c C:\Users\R2D2\CLionProjects\IOI_Training\main.cpp
+CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj: CMakeFiles/IOI_Training.dir/flags.make
+CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj: ../nachbarn.cpp
+CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj: CMakeFiles/IOI_Training.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj"
+	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj -MF CMakeFiles\IOI_Training.dir\nachbarn.cpp.obj.d -o CMakeFiles\IOI_Training.dir\nachbarn.cpp.obj -c C:\Users\R2D2\CLionProjects\IOI_Training\nachbarn.cpp
 
-CMakeFiles/IOI_Training.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IOI_Training.dir/main.cpp.i"
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\R2D2\CLionProjects\IOI_Training\main.cpp > CMakeFiles\IOI_Training.dir\main.cpp.i
+CMakeFiles/IOI_Training.dir/nachbarn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IOI_Training.dir/nachbarn.cpp.i"
+	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\R2D2\CLionProjects\IOI_Training\nachbarn.cpp > CMakeFiles\IOI_Training.dir\nachbarn.cpp.i
 
-CMakeFiles/IOI_Training.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IOI_Training.dir/main.cpp.s"
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\R2D2\CLionProjects\IOI_Training\main.cpp -o CMakeFiles\IOI_Training.dir\main.cpp.s
+CMakeFiles/IOI_Training.dir/nachbarn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IOI_Training.dir/nachbarn.cpp.s"
+	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\R2D2\CLionProjects\IOI_Training\nachbarn.cpp -o CMakeFiles\IOI_Training.dir\nachbarn.cpp.s
 
 # Object files for target IOI_Training
 IOI_Training_OBJECTS = \
-"CMakeFiles/IOI_Training.dir/main.cpp.obj"
+"CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj"
 
 # External object files for target IOI_Training
 IOI_Training_EXTERNAL_OBJECTS =
 
-IOI_Training.exe: CMakeFiles/IOI_Training.dir/main.cpp.obj
+IOI_Training.exe: CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj
 IOI_Training.exe: CMakeFiles/IOI_Training.dir/build.make
 IOI_Training.exe: CMakeFiles/IOI_Training.dir/linklibs.rsp
 IOI_Training.exe: CMakeFiles/IOI_Training.dir/objects1.rsp

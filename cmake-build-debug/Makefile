@@ -141,53 +141,53 @@ YingYang/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/build
 .PHONY : YingYang/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+nachbarn.obj: nachbarn.cpp.obj
+.PHONY : nachbarn.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+nachbarn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj
+.PHONY : nachbarn.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+nachbarn.i: nachbarn.cpp.i
+.PHONY : nachbarn.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/main.cpp.i
-.PHONY : main.cpp.i
+nachbarn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/nachbarn.cpp.i
+.PHONY : nachbarn.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+nachbarn.s: nachbarn.cpp.s
+.PHONY : nachbarn.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/main.cpp.s
-.PHONY : main.cpp.s
+nachbarn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/nachbarn.cpp.s
+.PHONY : nachbarn.cpp.s
 
-ying_yang.obj: ying_yang.cpp.obj
-.PHONY : ying_yang.obj
+yin_yang.obj: yin_yang.cpp.obj
+.PHONY : yin_yang.obj
 
 # target to build an object file
-ying_yang.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/ying_yang.cpp.obj
-.PHONY : ying_yang.cpp.obj
+yin_yang.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/yin_yang.cpp.obj
+.PHONY : yin_yang.cpp.obj
 
-ying_yang.i: ying_yang.cpp.i
-.PHONY : ying_yang.i
+yin_yang.i: yin_yang.cpp.i
+.PHONY : yin_yang.i
 
 # target to preprocess a source file
-ying_yang.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/ying_yang.cpp.i
-.PHONY : ying_yang.cpp.i
+yin_yang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/yin_yang.cpp.i
+.PHONY : yin_yang.cpp.i
 
-ying_yang.s: ying_yang.cpp.s
-.PHONY : ying_yang.s
+yin_yang.s: yin_yang.cpp.s
+.PHONY : yin_yang.s
 
 # target to generate assembly for a file
-ying_yang.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/ying_yang.cpp.s
-.PHONY : ying_yang.cpp.s
+yin_yang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/yin_yang.cpp.s
+.PHONY : yin_yang.cpp.s
 
 # Help Target
 help:
@@ -199,12 +199,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... IOI_Training
 	@echo ... YingYang
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... ying_yang.obj
-	@echo ... ying_yang.i
-	@echo ... ying_yang.s
+	@echo ... nachbarn.obj
+	@echo ... nachbarn.i
+	@echo ... nachbarn.s
+	@echo ... yin_yang.obj
+	@echo ... yin_yang.i
+	@echo ... yin_yang.s
 .PHONY : help
 
 

@@ -14,18 +14,12 @@ int main() {
         input[i] = current_input;
     }
 
-    std::sort(input, input + sizeof input / sizeof input[0]);
-
-    int position = 0;
-    int counter = 0;
     int output[amount_users];
+    for (int i = 0; i < amount_users; ++i) {
+        output[i] = 0;
+    }
     for(int i = 0; i < amount_friends * 2; ++i){
-        counter++;
-        if (input[i] != input[i+1] || i == amount_friends * 2 - 1){
-            output[position] = counter;
-            counter = 0;
-            position++;
-        }
+        output[input[i]]++;
     }
 
     int smallest = 10000;

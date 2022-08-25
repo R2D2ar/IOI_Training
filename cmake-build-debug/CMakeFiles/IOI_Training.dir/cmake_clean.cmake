@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/IOI_Training.dir/main.cpp.obj"
-  "CMakeFiles/IOI_Training.dir/main.cpp.obj.d"
+  "CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj"
+  "CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj.d"
   "IOI_Training.exe"
   "IOI_Training.exe.manifest"
   "IOI_Training.pdb"
