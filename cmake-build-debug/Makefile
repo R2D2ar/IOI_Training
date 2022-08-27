@@ -141,6 +141,43 @@ YingYang/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/build
 .PHONY : YingYang/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+Test.obj: Test.cpp.obj
+.PHONY : Test.obj
+
+# target to build an object file
+Test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.obj
+.PHONY : Test.cpp.obj
+
+Test.i: Test.cpp.i
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 nachbarn.obj: nachbarn.cpp.obj
 .PHONY : nachbarn.obj
 
@@ -198,7 +235,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... IOI_Training
+	@echo ... Test
 	@echo ... YingYang
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 	@echo ... nachbarn.obj
 	@echo ... nachbarn.i
 	@echo ... nachbarn.s

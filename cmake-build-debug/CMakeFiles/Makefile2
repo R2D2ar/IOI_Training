@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/IOI_Training.dir/all
 all: CMakeFiles/YingYang.dir/all
+all: CMakeFiles/Test.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +74,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/IOI_Training.dir/clean
 clean: CMakeFiles/YingYang.dir/clean
+clean: CMakeFiles/Test.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -108,7 +110,7 @@ CMakeFiles/IOI_Training.dir/clean:
 CMakeFiles/YingYang.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target YingYang"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target YingYang"
 .PHONY : CMakeFiles/YingYang.dir/all
 
 # Build rule for subdir invocation for target.
@@ -126,6 +128,32 @@ YingYang: CMakeFiles/YingYang.dir/rule
 CMakeFiles/YingYang.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/clean
 .PHONY : CMakeFiles/YingYang.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Test.dir
+
+# All Build rule for target.
+CMakeFiles/Test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Test"
+.PHONY : CMakeFiles/Test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: CMakeFiles/Test.dir/rule
+.PHONY : Test
+
+# clean rule for target.
+CMakeFiles/Test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/clean
+.PHONY : CMakeFiles/Test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

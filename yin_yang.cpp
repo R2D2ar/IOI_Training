@@ -14,6 +14,8 @@ bool changing(string input) {
 }
 
 int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     int number_cases;
     cin >> number_cases;
 
@@ -25,8 +27,8 @@ int main() {
     for (int i = 0; i < number_cases; ++i) {
         int number_w = 0;
         int number_b = 0;
-        for (int j = 0; j < cases[i].size(); ++j) {
-            if(cases[i][j] == 'W'){
+        for (char j : cases[i]) {
+            if(j == 'W'){
                 number_w++;
             }
             else{
@@ -34,7 +36,7 @@ int main() {
             }
         }
 
-        if(number_w == number_b && !changing(cases[i])){ cout << "Case #" << i + 1 << ": possible" << endl; continue;}
+        if(number_w == number_b && !changing(cases[i])){ cout << "Case #" << i + 1 << ": possible" << "\n"; continue;}
         cout << "Case #" << i + 1 << ": impossible" << endl;
 
     }

@@ -1,4 +1,5 @@
 C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/IOI_Training.dir
 C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/YingYang.dir
+C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Test.dir
 C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
