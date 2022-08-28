@@ -8,178 +8,319 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="IOI_Training">
-				<Option output="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/IOI_Training.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+			<Target title="Nachbarn">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Nachbarn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 IOI_Training"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nachbarn"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="IOI_Training/fast">
-				<Option output="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/IOI_Training.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+			<Target title="Nachbarn/fast">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Nachbarn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 IOI_Training/fast"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nachbarn/fast"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="YingYang">
-				<Option output="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/YingYang.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/YingYang.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 YingYang"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 YingYang"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="YingYang/fast">
-				<Option output="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/YingYang.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/YingYang.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 YingYang/fast"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 YingYang/fast"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zwerge">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Zwerge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Zwerge"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zwerge/fast">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Zwerge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Zwerge/fast"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test">
-				<Option output="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test/fast">
-				<Option output="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HalloIOI">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/HalloIOI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 HalloIOI"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HalloIOI/fast">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/HalloIOI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 HalloIOI/fast"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Laterne">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Laterne.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Laterne"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Laterne/fast">
+				<Option output="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Laterne.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 Laterne/fast"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug"/>
+				<Option working_dir="C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/R2D2/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/R2D2/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/r2r/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/Test.cpp">
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/Test.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/nachbarn.cpp">
-			<Option target="IOI_Training"/>
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/halloIOI.cpp">
+			<Option target="HalloIOI"/>
 		</Unit>
-		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/yin_yang.cpp">
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/laterne.cpp">
+			<Option target="Laterne"/>
+		</Unit>
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/nachbarn.cpp">
+			<Option target="Nachbarn"/>
+		</Unit>
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/yin_yang.cpp">
 			<Option target="YingYang"/>
 		</Unit>
-		<Unit filename="C:/Users/R2D2/CLionProjects/IOI_Training/CMakeLists.txt">
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/zwerge.cpp">
+			<Option target="Zwerge"/>
+		</Unit>
+		<Unit filename="C:/Users/r2r/CLionProjects/IOI_Training/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

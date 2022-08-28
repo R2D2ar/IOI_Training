@@ -3,6 +3,9 @@ project(IOI_Training)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(IOI_Training nachbarn.cpp)
+add_executable(Nachbarn nachbarn.cpp)
 add_executable(YingYang yin_yang.cpp)
+add_executable(Zwerge zwerge.cpp)
 add_executable(Test Test.cpp)
+add_executable(HalloIOI halloIOI.cpp)
+add_executable(Laterne laterne.cpp)

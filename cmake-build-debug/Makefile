@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\R2D2\CLionProjects\IOI_Training
+CMAKE_SOURCE_DIR = C:\Users\r2r\CLionProjects\IOI_Training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R2D2\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named IOI_Training
+# Target rules for targets named Nachbarn
 
 # Build rule for target.
-IOI_Training: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 IOI_Training
-.PHONY : IOI_Training
+Nachbarn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nachbarn
+.PHONY : Nachbarn
 
 # fast build rule for target.
-IOI_Training/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/build
-.PHONY : IOI_Training/fast
+Nachbarn/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nachbarn.dir\build.make CMakeFiles/Nachbarn.dir/build
+.PHONY : Nachbarn/fast
 
 #=============================================================================
 # Target rules for targets named YingYang
@@ -142,6 +142,19 @@ YingYang/fast:
 .PHONY : YingYang/fast
 
 #=============================================================================
+# Target rules for targets named Zwerge
+
+# Build rule for target.
+Zwerge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Zwerge
+.PHONY : Zwerge
+
+# fast build rule for target.
+Zwerge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zwerge.dir\build.make CMakeFiles/Zwerge.dir/build
+.PHONY : Zwerge/fast
+
+#=============================================================================
 # Target rules for targets named Test
 
 # Build rule for target.
@@ -153,6 +166,32 @@ Test: cmake_check_build_system
 Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
 .PHONY : Test/fast
+
+#=============================================================================
+# Target rules for targets named HalloIOI
+
+# Build rule for target.
+HalloIOI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HalloIOI
+.PHONY : HalloIOI
+
+# fast build rule for target.
+HalloIOI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HalloIOI.dir\build.make CMakeFiles/HalloIOI.dir/build
+.PHONY : HalloIOI/fast
+
+#=============================================================================
+# Target rules for targets named Laterne
+
+# Build rule for target.
+Laterne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Laterne
+.PHONY : Laterne
+
+# fast build rule for target.
+Laterne/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/build
+.PHONY : Laterne/fast
 
 Test.obj: Test.cpp.obj
 .PHONY : Test.obj
@@ -178,12 +217,60 @@ Test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.s
 .PHONY : Test.cpp.s
 
+halloIOI.obj: halloIOI.cpp.obj
+.PHONY : halloIOI.obj
+
+# target to build an object file
+halloIOI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HalloIOI.dir\build.make CMakeFiles/HalloIOI.dir/halloIOI.cpp.obj
+.PHONY : halloIOI.cpp.obj
+
+halloIOI.i: halloIOI.cpp.i
+.PHONY : halloIOI.i
+
+# target to preprocess a source file
+halloIOI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HalloIOI.dir\build.make CMakeFiles/HalloIOI.dir/halloIOI.cpp.i
+.PHONY : halloIOI.cpp.i
+
+halloIOI.s: halloIOI.cpp.s
+.PHONY : halloIOI.s
+
+# target to generate assembly for a file
+halloIOI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HalloIOI.dir\build.make CMakeFiles/HalloIOI.dir/halloIOI.cpp.s
+.PHONY : halloIOI.cpp.s
+
+laterne.obj: laterne.cpp.obj
+.PHONY : laterne.obj
+
+# target to build an object file
+laterne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/laterne.cpp.obj
+.PHONY : laterne.cpp.obj
+
+laterne.i: laterne.cpp.i
+.PHONY : laterne.i
+
+# target to preprocess a source file
+laterne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/laterne.cpp.i
+.PHONY : laterne.cpp.i
+
+laterne.s: laterne.cpp.s
+.PHONY : laterne.s
+
+# target to generate assembly for a file
+laterne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/laterne.cpp.s
+.PHONY : laterne.cpp.s
+
 nachbarn.obj: nachbarn.cpp.obj
 .PHONY : nachbarn.obj
 
 # target to build an object file
 nachbarn.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nachbarn.dir\build.make CMakeFiles/Nachbarn.dir/nachbarn.cpp.obj
 .PHONY : nachbarn.cpp.obj
 
 nachbarn.i: nachbarn.cpp.i
@@ -191,7 +278,7 @@ nachbarn.i: nachbarn.cpp.i
 
 # target to preprocess a source file
 nachbarn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/nachbarn.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nachbarn.dir\build.make CMakeFiles/Nachbarn.dir/nachbarn.cpp.i
 .PHONY : nachbarn.cpp.i
 
 nachbarn.s: nachbarn.cpp.s
@@ -199,7 +286,7 @@ nachbarn.s: nachbarn.cpp.s
 
 # target to generate assembly for a file
 nachbarn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IOI_Training.dir\build.make CMakeFiles/IOI_Training.dir/nachbarn.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nachbarn.dir\build.make CMakeFiles/Nachbarn.dir/nachbarn.cpp.s
 .PHONY : nachbarn.cpp.s
 
 yin_yang.obj: yin_yang.cpp.obj
@@ -226,6 +313,30 @@ yin_yang.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/yin_yang.cpp.s
 .PHONY : yin_yang.cpp.s
 
+zwerge.obj: zwerge.cpp.obj
+.PHONY : zwerge.obj
+
+# target to build an object file
+zwerge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zwerge.dir\build.make CMakeFiles/Zwerge.dir/zwerge.cpp.obj
+.PHONY : zwerge.cpp.obj
+
+zwerge.i: zwerge.cpp.i
+.PHONY : zwerge.i
+
+# target to preprocess a source file
+zwerge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zwerge.dir\build.make CMakeFiles/Zwerge.dir/zwerge.cpp.i
+.PHONY : zwerge.cpp.i
+
+zwerge.s: zwerge.cpp.s
+.PHONY : zwerge.s
+
+# target to generate assembly for a file
+zwerge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zwerge.dir\build.make CMakeFiles/Zwerge.dir/zwerge.cpp.s
+.PHONY : zwerge.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -234,18 +345,30 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... IOI_Training
+	@echo ... HalloIOI
+	@echo ... Laterne
+	@echo ... Nachbarn
 	@echo ... Test
 	@echo ... YingYang
+	@echo ... Zwerge
 	@echo ... Test.obj
 	@echo ... Test.i
 	@echo ... Test.s
+	@echo ... halloIOI.obj
+	@echo ... halloIOI.i
+	@echo ... halloIOI.s
+	@echo ... laterne.obj
+	@echo ... laterne.i
+	@echo ... laterne.s
 	@echo ... nachbarn.obj
 	@echo ... nachbarn.i
 	@echo ... nachbarn.s
 	@echo ... yin_yang.obj
 	@echo ... yin_yang.i
 	@echo ... yin_yang.s
+	@echo ... zwerge.obj
+	@echo ... zwerge.i
+	@echo ... zwerge.s
 .PHONY : help
 
 

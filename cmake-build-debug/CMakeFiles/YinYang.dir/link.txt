@@ -1,3 +1,0 @@
-C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\YinYang.dir/objects.a
-C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\ar.exe qc CMakeFiles\YinYang.dir/objects.a @CMakeFiles\YinYang.dir\objects1.rsp
-C:\Users\R2D2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\YinYang.dir/objects.a -Wl,--no-whole-archive -o YinYang.exe -Wl,--out-implib,libYinYang.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\YinYang.dir\linklibs.rsp

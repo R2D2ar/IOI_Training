@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/R2D2/CLionProjects/IOI_Training/nachbarn.cpp" "CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj" "gcc" "CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj.d"
+  "C:/Users/r2r/CLionProjects/IOI_Training/nachbarn.cpp" "CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj" "gcc" "CMakeFiles/IOI_Training.dir/nachbarn.cpp.obj.d"
   )
 
 # Targets to which this target links.
