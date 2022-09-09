@@ -1,17 +1,20 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+typedef long long ll;
 
 int main(){
-    int n;
+    ios_base::sync_with_stdio(false);
+    int n = 0;
     cin >> n;
-    long long target[n];
+    ll o = -1;
     for (int i = 0; i < n; ++i) {
-       cin >> target[i];
+        ll temp;
+        cin >> temp;
+        o = max(o, temp);
     }
-    sort(target, target+n);
 
-    cout << setprecision(18) << pow(target[n-1], 3);
+    cout << o*o*o << "\n";
 
     return 0;
 }

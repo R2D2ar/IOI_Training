@@ -57,4 +57,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Test.dir/DependInfo.cmake"
   "CMakeFiles/HalloIOI.dir/DependInfo.cmake"
   "CMakeFiles/Laterne.dir/DependInfo.cmake"
+  "CMakeFiles/Bufet.dir/DependInfo.cmake"
+  "CMakeFiles/Geweih.dir/DependInfo.cmake"
   )

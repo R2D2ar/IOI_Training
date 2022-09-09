@@ -193,6 +193,32 @@ Laterne/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/build
 .PHONY : Laterne/fast
 
+#=============================================================================
+# Target rules for targets named Bufet
+
+# Build rule for target.
+Bufet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bufet
+.PHONY : Bufet
+
+# fast build rule for target.
+Bufet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/build
+.PHONY : Bufet/fast
+
+#=============================================================================
+# Target rules for targets named Geweih
+
+# Build rule for target.
+Geweih: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Geweih
+.PHONY : Geweih
+
+# fast build rule for target.
+Geweih/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/build
+.PHONY : Geweih/fast
+
 Test.obj: Test.cpp.obj
 .PHONY : Test.obj
 
@@ -216,6 +242,54 @@ Test.s: Test.cpp.s
 Test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.s
 .PHONY : Test.cpp.s
+
+bufet.obj: bufet.cpp.obj
+.PHONY : bufet.obj
+
+# target to build an object file
+bufet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/bufet.cpp.obj
+.PHONY : bufet.cpp.obj
+
+bufet.i: bufet.cpp.i
+.PHONY : bufet.i
+
+# target to preprocess a source file
+bufet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/bufet.cpp.i
+.PHONY : bufet.cpp.i
+
+bufet.s: bufet.cpp.s
+.PHONY : bufet.s
+
+# target to generate assembly for a file
+bufet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/bufet.cpp.s
+.PHONY : bufet.cpp.s
+
+geweih.obj: geweih.cpp.obj
+.PHONY : geweih.obj
+
+# target to build an object file
+geweih.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/geweih.cpp.obj
+.PHONY : geweih.cpp.obj
+
+geweih.i: geweih.cpp.i
+.PHONY : geweih.i
+
+# target to preprocess a source file
+geweih.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/geweih.cpp.i
+.PHONY : geweih.cpp.i
+
+geweih.s: geweih.cpp.s
+.PHONY : geweih.s
+
+# target to generate assembly for a file
+geweih.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/geweih.cpp.s
+.PHONY : geweih.cpp.s
 
 halloIOI.obj: halloIOI.cpp.obj
 .PHONY : halloIOI.obj
@@ -345,6 +419,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Bufet
+	@echo ... Geweih
 	@echo ... HalloIOI
 	@echo ... Laterne
 	@echo ... Nachbarn
@@ -354,6 +430,12 @@ help:
 	@echo ... Test.obj
 	@echo ... Test.i
 	@echo ... Test.s
+	@echo ... bufet.obj
+	@echo ... bufet.i
+	@echo ... bufet.s
+	@echo ... geweih.obj
+	@echo ... geweih.i
+	@echo ... geweih.s
 	@echo ... halloIOI.obj
 	@echo ... halloIOI.i
 	@echo ... halloIOI.s

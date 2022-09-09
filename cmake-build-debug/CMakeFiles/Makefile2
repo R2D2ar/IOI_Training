@@ -68,6 +68,8 @@ all: CMakeFiles/Zwerge.dir/all
 all: CMakeFiles/Test.dir/all
 all: CMakeFiles/HalloIOI.dir/all
 all: CMakeFiles/Laterne.dir/all
+all: CMakeFiles/Bufet.dir/all
+all: CMakeFiles/Geweih.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -81,6 +83,8 @@ clean: CMakeFiles/Zwerge.dir/clean
 clean: CMakeFiles/Test.dir/clean
 clean: CMakeFiles/HalloIOI.dir/clean
 clean: CMakeFiles/Laterne.dir/clean
+clean: CMakeFiles/Bufet.dir/clean
+clean: CMakeFiles/Geweih.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -90,7 +94,7 @@ clean: CMakeFiles/Laterne.dir/clean
 CMakeFiles/Nachbarn.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nachbarn.dir\build.make CMakeFiles/Nachbarn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nachbarn.dir\build.make CMakeFiles/Nachbarn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Nachbarn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Nachbarn"
 .PHONY : CMakeFiles/Nachbarn.dir/all
 
 # Build rule for subdir invocation for target.
@@ -116,7 +120,7 @@ CMakeFiles/Nachbarn.dir/clean:
 CMakeFiles/YingYang.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YingYang.dir\build.make CMakeFiles/YingYang.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target YingYang"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target YingYang"
 .PHONY : CMakeFiles/YingYang.dir/all
 
 # Build rule for subdir invocation for target.
@@ -142,7 +146,7 @@ CMakeFiles/YingYang.dir/clean:
 CMakeFiles/Zwerge.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zwerge.dir\build.make CMakeFiles/Zwerge.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zwerge.dir\build.make CMakeFiles/Zwerge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Zwerge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Zwerge"
 .PHONY : CMakeFiles/Zwerge.dir/all
 
 # Build rule for subdir invocation for target.
@@ -168,7 +172,7 @@ CMakeFiles/Zwerge.dir/clean:
 CMakeFiles/Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Test"
 .PHONY : CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +198,7 @@ CMakeFiles/Test.dir/clean:
 CMakeFiles/HalloIOI.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HalloIOI.dir\build.make CMakeFiles/HalloIOI.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HalloIOI.dir\build.make CMakeFiles/HalloIOI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target HalloIOI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target HalloIOI"
 .PHONY : CMakeFiles/HalloIOI.dir/all
 
 # Build rule for subdir invocation for target.
@@ -220,7 +224,7 @@ CMakeFiles/HalloIOI.dir/clean:
 CMakeFiles/Laterne.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Laterne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Laterne"
 .PHONY : CMakeFiles/Laterne.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,6 +242,58 @@ Laterne: CMakeFiles/Laterne.dir/rule
 CMakeFiles/Laterne.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laterne.dir\build.make CMakeFiles/Laterne.dir/clean
 .PHONY : CMakeFiles/Laterne.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Bufet.dir
+
+# All Build rule for target.
+CMakeFiles/Bufet.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Bufet"
+.PHONY : CMakeFiles/Bufet.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Bufet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Bufet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Bufet.dir/rule
+
+# Convenience name for target.
+Bufet: CMakeFiles/Bufet.dir/rule
+.PHONY : Bufet
+
+# clean rule for target.
+CMakeFiles/Bufet.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bufet.dir\build.make CMakeFiles/Bufet.dir/clean
+.PHONY : CMakeFiles/Bufet.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Geweih.dir
+
+# All Build rule for target.
+CMakeFiles/Geweih.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Geweih"
+.PHONY : CMakeFiles/Geweih.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Geweih.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Geweih.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Geweih.dir/rule
+
+# Convenience name for target.
+Geweih: CMakeFiles/Geweih.dir/rule
+.PHONY : Geweih
+
+# clean rule for target.
+CMakeFiles/Geweih.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Geweih.dir\build.make CMakeFiles/Geweih.dir/clean
+.PHONY : CMakeFiles/Geweih.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

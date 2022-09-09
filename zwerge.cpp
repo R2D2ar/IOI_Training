@@ -2,40 +2,104 @@
 
 using namespace std;
 
+class Graph
+{
+    int V;    // No. of vertices
+    list<int> *adj;    // Pointer to an array containing adjacency lists
+    bool isCyclicUtil(int v, bool visited[], bool *rs);  // used by isCyclic()
+public:
+    Graph(int V);   // Constructor
+    void addEdge(int v, int w);   // to add an edge to graph
+    bool isCyclic();    // returns true if there is a cycle in this graph
+};
+
+Graph::Graph(int V)
+{
+    this->V = V;
+    adj = new list<int>[V];
+}
+
+void Graph::addEdge(int v, int w)
+{
+    adj[v].push_back(w); // Add w to v’s list.
+}
+
+
+bool Graph::isCyclicUtil(int v, bool visited[], bool *recStack)
+{
+    if(!visited[v])
+    {
+        // Mark the current node as visited and part of recursion stack
+        visited[v] = true;
+        recStack[v] = true;
+
+        // Recur for all the vertices adjacent to this vertex
+        list<int>::iterator i;
+        for(i = adj[v].begin(); i != adj[v].end(); ++i)
+        {
+            if ( !visited[*i] && isCyclicUtil(*i, visited, recStack) )
+                return true;
+            else if (recStack[*i])
+                return true;
+        }
+
+    }
+    recStack[v] = false;  // remove the vertex from recursion stack
+    return false;
+}
+
+// Returns true if the graph contains a cycle, else false.
+// This function is a variation of DFS() in
+bool Graph::isCyclic()
+{
+    // Mark all the vertices as not visited and not part of recursion
+    // stack
+    bool *visited = new bool[V];
+    bool *recStack = new bool[V];
+    for(int i = 0; i < V; i++)
+    {
+        visited[i] = false;
+        recStack[i] = false;
+    }
+
+    // Call the recursive helper function to detect cycle in different
+    // DFS trees
+    for(int i = 0; i < V; i++)
+        if ( !visited[i] && isCyclicUtil(i, visited, recStack))
+            return true;
+
+    return false;
+}
+
 int main() {
 
     int rows;
     cin >> rows;
-
-    string zwerg1;
+    string zwerg1, zwerg2;
     char op;
-    string zwerg2;
-
-    vector<string> order = vector<string>();
+    set<string> V;
+    vector<pair<string, string>> edge(rows);
     for (int i = 0; i < rows; ++i) {
         cin >> zwerg1 >> op >> zwerg2;
-        if (op != '<') swap(zwerg1, zwerg2);
-        auto it1 = find(order.begin(), order.end(), zwerg1);
-        auto it2 = find(order.begin(), order.end(), zwerg2);
-        if(it1 != order.end() && it2 != order.end()){
-            if (it1 > it2) {
-                cout << "impossible";
-                return 0;
-            }
-        }
-        else if (it1 == order.end() && it2 == order.end()) {
-            order.insert(order.begin(), zwerg1);
-            order.insert(order.begin() + 1, zwerg2);
-        } else if (it1 != order.end()) {
-            //Wenn einer der beiden nicht enthalten ist
-            order.insert(it1 + 1, zwerg2);
-        } else if (it2 != order.end()) {
-            //Wenn einer der beiden nicht enthalten ist
-            order.insert(it2, zwerg1);
-        }
+        V.insert(zwerg1);
+        V.insert(zwerg2);
+        if(op == '>') swap(zwerg1, zwerg2);
+        edge[i] = {zwerg1, zwerg2};
+    }
+    map<string, int> trans = map<string, int>();
+    int i = 0;
+    for (const auto& item : V) {
+        trans.insert({item, i});
+        i++;
     }
 
-    cout << "possible";
+    Graph graph(V.size());
+    for (const auto& item : edge) {
+        graph.addEdge(trans[item.first], trans[item.second]);
+    }
+
+    if(graph.isCyclic()) cout << "impossible";
+    else cout << "possible";
 
 
     return 0;
