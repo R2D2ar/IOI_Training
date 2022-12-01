@@ -1,3 +1,0 @@
-C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\IOI_Training.dir/objects.a
-C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\ar.exe qc CMakeFiles\IOI_Training.dir/objects.a @CMakeFiles\IOI_Training.dir\objects1.rsp
-C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\IOI_Training.dir/objects.a -Wl,--no-whole-archive -o IOI_Training.exe -Wl,--out-implib,libIOI_Training.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IOI_Training.dir\linklibs.rsp

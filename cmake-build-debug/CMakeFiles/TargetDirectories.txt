@@ -6,5 +6,7 @@ C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/HalloIOI.di
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Laterne.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Bufet.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Geweih.dir
+C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Hotel.dir
+C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Less.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/rebuild_cache.dir

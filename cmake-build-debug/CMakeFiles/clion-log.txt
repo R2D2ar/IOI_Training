@@ -1,4 +1,0 @@
-C:\Users\r2r\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\r2r\CLionProjects\IOI_Training -B C:\Users\r2r\CLionProjects\IOI_Training\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug
