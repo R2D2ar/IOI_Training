@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/YingYang.dir/yin_yang.cpp.obj"
-  "CMakeFiles/YingYang.dir/yin_yang.cpp.obj.d"
+  "CMakeFiles/YingYang.dir/GreedyAlgorithms/yin_yang.cpp.obj"
+  "CMakeFiles/YingYang.dir/GreedyAlgorithms/yin_yang.cpp.obj.d"
   "YingYang.exe"
   "YingYang.exe.manifest"
   "YingYang.pdb"
