@@ -3,19 +3,15 @@
 using namespace std;
 
 
-bool checkLights(int N, vector<int>& is_light, vector<int>& position){
-    bool changed = false;
+void checkLights(int N, vector<int>& is_light, vector<int>& position){
     cout << "Q";
     for (int i = 0; i < N; ++i) {
         cout << " " << position[i]+1;
     }
     cout << "\n" << flush;
     for (int i = 0; i < N; ++i) {
-        int save = is_light[i];
         cin >> is_light[i];
-        if(save != is_light[i]) changed = true;
     }
-    if(!changed) return false;
 
     //Change order
     vector<pair<int, int>> need_to_change_indices = vector<pair<int, int>>();
@@ -35,7 +31,6 @@ bool checkLights(int N, vector<int>& is_light, vector<int>& position){
             position[need_to_change_indices[i + 1].first] = need_to_change_indices[i].second;
         }
     }
-    return true;
 }
 
 int main(){
@@ -47,9 +42,8 @@ int main(){
     for (int i = 0; i < N; i++) {
         position[i] = i;
     }
-    bool changed = true;
-    while(changed){
-        changed = checkLights(N, is_light, position);
+    for (int i = 0; i < N; i++){
+        checkLights(N, is_light, position);
     }
     cout << "A";
     for (int i = 0; i < N; ++i) {
