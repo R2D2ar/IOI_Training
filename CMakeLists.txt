@@ -33,3 +33,6 @@ add_executable(Tennis Wettbewerbe/1.Contest/tennis.cpp)
 
 add_executable(Leuchte Wettbewerbe/2.Contest/leuchte.cpp)
 add_executable(Bintree Wettbewerbe/2.Contest/bintree.cpp)
+
+add_executable(HirschEinordnung 2025/HirschEinordnung/hirsch.cpp)
+add_executable(Hotel hotel.cpp)

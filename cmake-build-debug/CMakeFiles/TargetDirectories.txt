@@ -22,5 +22,7 @@ C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Orks.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Tennis.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Leuchte.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Bintree.dir
+C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/HirschEinordnung.dir
+C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/Hotel.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/r2r/CLionProjects/IOI_Training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
